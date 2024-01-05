@@ -1,0 +1,2 @@
+1.When running pathtree, it does not work well for different reasons:1. keyerror 64 (subtree.py line246) 2. list index out of range (pathtree.py line 134) 3. list index out of range (subtree.py line 212)
+2.We are currently limited to a matrix that generates a phylip format to represent each of the professors. How to include all the information for each professor is a problem.  
