@@ -1,0 +1,126 @@
+2 trees read in from ../treelist
+Starting tree: (((((((((Varecia_va:0.101445,Lemur_catt:0.083510):0.038355,Propithecu:0.099130):0.023839,(Microcebus:0.130519,Cheirogale:0.081685):0.037497):0.039229,Lepilemur_:0.123541):0.038225,Daubentoni:0.118113):0.013526,Tarsius_sy:0.184469):0.019781,((Perodictic:0.103082,(Galago_sen:0.080849,Otolemur_c:0.087235):0.043559):0.029989,(Loris_tard:0.092287,Nycticebus:0.129859):0.033856):0.038202):0.031467,((Saimiri_sc:0.132404,((Cebus_albi:0.104515,Aotus_triv:0.099195):0.022742,Callicebus:0.104356):0.034232):0.082161,((Hylobates_:0.092312,Pan_panisc:0.071567):0.028987,((Macaca_mul:0.093841,Chlorocebu:0.085422):0.023017,Colobus_gu:0.133037):0.038233):0.036725):0.048629):0.016987,Galeopteru:0.152886):0;
+Target tree: ((((((((Varecia_va:0.115896,Lemur_catt:0.079777):0.038761,Propithecu:0.083629):0.025582,(Microcebus:0.101588,Cheirogale:0.085004):0.038981):0.031714,Lepilemur_:0.144390):0.046653,Daubentoni:0.108552):0.020619,(Tarsius_sy:0.174740,((Perodictic:0.096821,(Galago_sen:0.070900,Otolemur_c:0.091027):0.034332):0.029999,(Loris_tard:0.117567,Nycticebus:0.101731):0.033825):0.019848):0.031312):0.037548,((Saimiri_sc:0.094135,((Cebus_albi:0.077756,Callicebus:0.086822):0.030729,Aotus_triv:0.107082):0.027459):0.081208,((Hylobates_:0.103529,Pan_panisc:0.087848):0.031030,((Macaca_mul:0.095433,Chlorocebu:0.081554):0.014482,Colobus_gu:0.145935):0.046618):0.052329):0.047587):0.016491,Galeopteru:0.148416):0;
+
+Starting tree edges:
+Edge ID		Length		Leaves Below
+0		0.038355		Lemur_catt,Varecia_va
+1		0.023839		Lemur_catt,Propithecu,Varecia_va
+2		0.037497		Cheirogale,Microcebus
+3		0.039229		Cheirogale,Lemur_catt,Microcebus,Propithecu,Varecia_va
+4		0.038225		Cheirogale,Lemur_catt,Lepilemur_,Microcebus,Propithecu,Varecia_va
+5		0.013526		Cheirogale,Daubentoni,Lemur_catt,Lepilemur_,Microcebus,Propithecu,Varecia_va
+6		0.019781		Cheirogale,Daubentoni,Lemur_catt,Lepilemur_,Microcebus,Propithecu,Tarsius_sy,Varecia_va
+7		0.043559		Galago_sen,Otolemur_c
+8		0.029989		Galago_sen,Otolemur_c,Perodictic
+9		0.033856		Loris_tard,Nycticebus
+10		0.038202		Galago_sen,Loris_tard,Nycticebus,Otolemur_c,Perodictic
+11		0.031467		Cheirogale,Daubentoni,Galago_sen,Lemur_catt,Lepilemur_,Loris_tard,Microcebus,Nycticebus,Otolemur_c,Perodictic,Propithecu,Tarsius_sy,Varecia_va
+12		0.022742		Aotus_triv,Cebus_albi
+13		0.034232		Aotus_triv,Callicebus,Cebus_albi
+14		0.082161		Aotus_triv,Callicebus,Cebus_albi,Saimiri_sc
+15		0.028987		Hylobates_,Pan_panisc
+16		0.023017		Chlorocebu,Macaca_mul
+17		0.038233		Chlorocebu,Colobus_gu,Macaca_mul
+18		0.036725		Chlorocebu,Colobus_gu,Hylobates_,Macaca_mul,Pan_panisc
+19		0.048629		Aotus_triv,Callicebus,Cebus_albi,Chlorocebu,Colobus_gu,Hylobates_,Macaca_mul,Pan_panisc,Saimiri_sc
+20		0.016987		Aotus_triv,Callicebus,Cebus_albi,Cheirogale,Chlorocebu,Colobus_gu,Daubentoni,Galago_sen,Hylobates_,Lemur_catt,Lepilemur_,Loris_tard,Macaca_mul,Microcebus,Nycticebus,Otolemur_c,Pan_panisc,Perodictic,Propithecu,Saimiri_sc,Tarsius_sy,Varecia_va
+
+Target tree edges:
+Edge ID		Length		Leaves Below
+0		0.038761		Lemur_catt,Varecia_va
+1		0.025582		Lemur_catt,Propithecu,Varecia_va
+2		0.038981		Cheirogale,Microcebus
+3		0.031714		Cheirogale,Lemur_catt,Microcebus,Propithecu,Varecia_va
+4		0.046653		Cheirogale,Lemur_catt,Lepilemur_,Microcebus,Propithecu,Varecia_va
+5		0.020619		Cheirogale,Daubentoni,Lemur_catt,Lepilemur_,Microcebus,Propithecu,Varecia_va
+6		0.034332		Galago_sen,Otolemur_c
+7		0.029999		Galago_sen,Otolemur_c,Perodictic
+8		0.033825		Loris_tard,Nycticebus
+9		0.019848		Galago_sen,Loris_tard,Nycticebus,Otolemur_c,Perodictic
+10		0.031312		Galago_sen,Loris_tard,Nycticebus,Otolemur_c,Perodictic,Tarsius_sy
+11		0.037548		Cheirogale,Daubentoni,Galago_sen,Lemur_catt,Lepilemur_,Loris_tard,Microcebus,Nycticebus,Otolemur_c,Perodictic,Propithecu,Tarsius_sy,Varecia_va
+12		0.030729		Callicebus,Cebus_albi
+13		0.027459		Aotus_triv,Callicebus,Cebus_albi
+14		0.081208		Aotus_triv,Callicebus,Cebus_albi,Saimiri_sc
+15		0.03103		Hylobates_,Pan_panisc
+16		0.014482		Chlorocebu,Macaca_mul
+17		0.046618		Chlorocebu,Colobus_gu,Macaca_mul
+18		0.052329		Chlorocebu,Colobus_gu,Hylobates_,Macaca_mul,Pan_panisc
+19		0.047587		Aotus_triv,Callicebus,Cebus_albi,Chlorocebu,Colobus_gu,Hylobates_,Macaca_mul,Pan_panisc,Saimiri_sc
+20		0.016491		Aotus_triv,Callicebus,Cebus_albi,Cheirogale,Chlorocebu,Colobus_gu,Daubentoni,Galago_sen,Hylobates_,Lemur_catt,Lepilemur_,Loris_tard,Macaca_mul,Microcebus,Nycticebus,Otolemur_c,Pan_panisc,Perodictic,Propithecu,Saimiri_sc,Tarsius_sy,Varecia_va
+
+Leaf contribution squared 0.006659
+(Leaf contribution squared = square of the length of the vector whose i-th element is the absolute value of the difference between the length of the split ending in leaf i in the first tree and the length of the split ending in leaf i in the second tree.)
+
+Common edges are:  (Length = abs. value of difference in length between the two trees)
+Edge ID		Length		Leaves Below
+0		-0.000406		Lemur_catt,Varecia_va
+1		-0.001743		Lemur_catt,Propithecu,Varecia_va
+2		-0.001484		Cheirogale,Microcebus
+3		0.007515		Cheirogale,Lemur_catt,Microcebus,Propithecu,Varecia_va
+4		-0.008428		Cheirogale,Lemur_catt,Lepilemur_,Microcebus,Propithecu,Varecia_va
+5		-0.007093		Cheirogale,Daubentoni,Lemur_catt,Lepilemur_,Microcebus,Propithecu,Varecia_va
+7		0.009227		Galago_sen,Otolemur_c
+8		-0.00001		Galago_sen,Otolemur_c,Perodictic
+9		0.000031		Loris_tard,Nycticebus
+10		0.018354		Galago_sen,Loris_tard,Nycticebus,Otolemur_c,Perodictic
+11		-0.006081		Cheirogale,Daubentoni,Galago_sen,Lemur_catt,Lepilemur_,Loris_tard,Microcebus,Nycticebus,Otolemur_c,Perodictic,Propithecu,Tarsius_sy,Varecia_va
+13		0.006773		Aotus_triv,Callicebus,Cebus_albi
+14		0.000953		Aotus_triv,Callicebus,Cebus_albi,Saimiri_sc
+15		-0.002043		Hylobates_,Pan_panisc
+16		0.008535		Chlorocebu,Macaca_mul
+17		-0.008385		Chlorocebu,Colobus_gu,Macaca_mul
+18		-0.015604		Chlorocebu,Colobus_gu,Hylobates_,Macaca_mul,Pan_panisc
+19		0.001042		Aotus_triv,Callicebus,Cebus_albi,Chlorocebu,Colobus_gu,Hylobates_,Macaca_mul,Pan_panisc,Saimiri_sc
+20		0.000496		Aotus_triv,Callicebus,Cebus_albi,Cheirogale,Chlorocebu,Colobus_gu,Daubentoni,Galago_sen,Hylobates_,Lemur_catt,Lepilemur_,Loris_tard,Macaca_mul,Microcebus,Nycticebus,Otolemur_c,Pan_panisc,Perodictic,Propithecu,Saimiri_sc,Tarsius_sy,Varecia_va
+
+Common edges contribution squared: 0.001081
+(sum of squares of above differences in length)
+=============================================================================================================================
+
+Now finding the geodesic between the following subtrees, which have no edges in common:
+
+Starting subtree edges:
+Edge ID		Length		Leaves Below
+6		0.019781		Cheirogale,Daubentoni,Lemur_catt,Lepilemur_,Microcebus,Propithecu,Tarsius_sy,Varecia_va
+
+Target subtree edges:
+Edge ID		Length		Leaves Below
+10		0.031312		Galago_sen,Loris_tard,Nycticebus,Otolemur_c,Perodictic,Tarsius_sy
+
+Geodesic distance between above subtrees, ignoring edges ending in leaves: 0.051093
+Ratio sequence corresponding to the geodesic:
+Combinatorial type: {6}/{10};
+
+Ratio 0:  0.63173863
+Total length and corresponding edges dropped:
+0.019781	Cheirogale,Daubentoni,Lemur_catt,Lepilemur_,Microcebus,Propithecu,Tarsius_sy,Varecia_va
+
+Total length and corresponding edges added:
+0.031312	Galago_sen,Loris_tard,Nycticebus,Otolemur_c,Perodictic,Tarsius_sy
+
+------------------------------------------------------------------------------------------------------------
+
+Starting subtree edges:
+Edge ID		Length		Leaves Below
+12		0.022742		Aotus_triv,Cebus_albi
+
+Target subtree edges:
+Edge ID		Length		Leaves Below
+12		0.030729		Callicebus,Cebus_albi
+
+Geodesic distance between above subtrees, ignoring edges ending in leaves: 0.053471
+Ratio sequence corresponding to the geodesic:
+Combinatorial type: {12}/{12};
+
+Ratio 0:  0.74008266
+Total length and corresponding edges dropped:
+0.022742	Aotus_triv,Cebus_albi
+
+Total length and corresponding edges added:
+0.030729	Callicebus,Cebus_albi
+
+------------------------------------------------------------------------------------------------------------
+
+Geodesic distance between start and target tree is 0.114936
